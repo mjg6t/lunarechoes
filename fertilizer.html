@@ -1566,23 +1566,134 @@
           position: absolute !important;
           width: 500px !important;
           height: 300px !important;
-          transform: translate(180px,-770px); 
+          transform: translate(180px,-790px); 
         }
 
         
       }
     </style>
 
-    <div class="container-fluid" id="our-products">
-        <div class="row">
-            <div class="col-md-5 px-0">
-                image
-            </div>
-            <div class="col-md-7 px-0">
-                contact us
-            </div>
+    <section class="container px-0"
+    style="
+      align-self: stretch;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-start;
+      row-gap: 20px;
+      max-width: 100%;
+      text-align: left;
+      font-size: 42px;
+      color: #123627;
+      font-family: 'Open Sans';
+    "
+    >
+    <div class="row g-0">
+      <img class="col"
+        style="
+          width: 626px;
+          position: relative;
+          max-height: 100%;
+          object-fit: cover;
+          min-height: 500px;
+          max-width: 100%;
+          padding-right: 0;
+        "
+        loading="lazy"
+        alt=""
+        src="./public/rectangle-36@2x.png"
+      />
+
+      <div class="col"
+        style="
+          flex: 1;
+          background-color: #f7f7f7;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+          padding: 120.5px 80px;
+          box-sizing: border-box;
+          gap: 32px;
+          min-width: 529px;
+          max-width: 100%;
+        "
+      >
+        <div
+          style="
+            align-self: stretch;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 15px;
+            max-width: 100%;
+          "
+        >
+          <h1
+            style="
+              margin: 0;
+              align-self: stretch;
+              position: relative;
+              font-size: inherit;
+              line-height: 48px;
+              text-transform: capitalize;
+              font-weight: 500;
+              font-family: inherit;
+            "
+          >
+            Contact us
+          </h1>
+          <h2
+            style="
+              margin: 0;
+              width: 550px;
+              position: relative;
+              font-size: 26px;
+              line-height: 38px;
+              font-weight: 400;
+              font-family: 'Plus Jakarta Sans';
+              display: inline-block;
+              max-width: 100%;
+            "
+          >
+            For more information, contact us. We are dedicated to providing
+            the highest quality organic fertilizers locally.
+          </h2>
         </div>
-    </div>
+        <button
+          style="
+            cursor: pointer;
+            border: 0.5px solid #f7f7f7;
+            padding: 12px 29px;
+            background-color: #009e4c;
+            border-radius: 11px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+            white-space: nowrap;
+          "
+        >
+          <div
+            style="
+              position: relative;
+              font-size: 18px;
+              text-transform: capitalize;
+              font-weight: 500;
+              font-family: 'Plus Jakarta Sans';
+              color: #f7f7f7;
+              text-align: center;
+              display: inline-block;
+              min-width: 72px;
+            "
+          >
+            Email Us
+          </div>
+        </button>
+      </div>
+    </div>  
+    </section>
 
     <div class="container-fluid" id="footer">
         footer
